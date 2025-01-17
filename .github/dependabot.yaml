@@ -10,3 +10,8 @@ updates:
     labels:
       - "in progress"
       - "dependencies"
+
+  - package-ecosystem: pip
+    directory: /.github/workflows/config
+    schedule:
+      interval: daily
